@@ -26,7 +26,7 @@
     }
 
     header h1 {
-      font-size: clamp(1.5rem, 4vw, 2.5rem); /* ajusta dinamicamente */
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
       color: #ffffff;
       word-wrap: break-word;
     }
@@ -74,7 +74,7 @@
 
     .gallery img {
       width: 100%;
-      height: auto; /* deixa responsivo */
+      height: auto;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.15);
       transition: transform 0.3s ease;
@@ -82,6 +82,25 @@
 
     .gallery img:hover {
       transform: scale(1.05);
+    }
+
+    /* Caixa com rolagem para o texto longo */
+    .scroll-box {
+      max-height: 300px;
+      overflow-y: auto;
+      padding-right: 8px;
+    }
+
+    /* Personalizar a barra de rolagem */
+    .scroll-box::-webkit-scrollbar {
+      width: 6px;
+    }
+    .scroll-box::-webkit-scrollbar-thumb {
+      background: #44029b;
+      border-radius: 4px;
+    }
+    .scroll-box::-webkit-scrollbar-track {
+      background: rgba(0,0,0,0.1);
     }
 
     footer {
@@ -95,7 +114,6 @@
       color: #ffffff;
     }
 
-    /* Ajustes extras para telas pequenas */
     @media (max-width: 600px) {
       body {
         padding: 15px;
@@ -106,7 +124,7 @@
       }
 
       .gallery {
-        grid-template-columns: 1fr; /* imagens em coluna no celular */
+        grid-template-columns: 1fr;
       }
     }
   </style>
@@ -142,11 +160,25 @@
 
   <section class="lyrics">
     <h2>Bastidores</h2>
-    <p>
-    <strong>Início/Ideia:</strong>
+    <div class="scroll-box">
+      <p>
+      <strong>Início/Ideia:</strong>
 
-    não lembro exatamente quando foi mas recentemente senti vontade em aprender a criar beats (ou tentar kkkk) ...
-    </p>
+      não lembro exatamente quando foi mas recentemente senti vontade em aprender a criar beats (ou tentar kkkk) é a parte que eu mais gosto das músicas então fui ver como me saia, pouco tempo depois dessa ideia pensar em juntar o útil ao agradavel, e se eu fizesse um beat pra aquela garota... acho que seria uma maneira diferente de interagir com ela ao inves das mensagens de sempre, mas melhor que isso, "e se eu fizesse uma música" kkkk.
+
+      <strong>Produção:</strong>
+
+      o primeiro passo era descubrir um app que eu pudesse fazer isso, ja tinha ouvido falar do FL Studio antes então foi nele que eu fui msm, consegui pagar 20 conto em um que ja vinha na versão pro e com uns bonus lá (a versão original custa 450 conto kkkkk) dps disso tive que ver muitos vídeos para entender o mínimo de como aquilo funcionava, o bgl parece um painel de um avião, e dps de tanta luta pra n desistir da ideia tive que mudar a ideia de fazer o beat e pegar um beat free do youtube (me economizaria tempo e eu conseguiria estudar em como melhorar a voz) é díficil mas até que deu certo.
+
+      <strong>Composição:</strong>
+      
+      aqui eu vi que fazer uma música não era só ligar o mic e começar a cantar, a criatividade muitas vezes sumiu e eu conseguia ir criando em média dois versos por tentativa, além das rimas, pra musica ter uma sonoridade agradavel é recomendado que os versos estejam metrificados, o que prejudica um pouco mais as ideias, mas acho que ficou bom, eu não queria criar algo tão genérico e como não conheço muito sobre vc tive que ir colhendo insights te stalkeando pelo insta e pelo tiktok (foi por uma boa causa).
+
+      <strong>Considerações Finais:</strong>
+
+      Apesar de todo o trabalho foi divertido fazer isso, aprendi bastante e fiquei feliz com o resultado, afinal é a primeira vez que eu faço todos esses processos (o risco de ser algo para agradar é uma motivação muito boa, adrenalina vem forte kkkk). Bom, no mais foi isso, veja isso como um presente feito com carinho, cuidado e dedicação, não quero te pressionar a nenhuma interação depois disso, só foi uma maneira arriscada e diferente que eu encontrei de chamar sua atenção, mas, "Se você quiser".
+      </p>
+    </div>
   </section>
 
   <footer>
