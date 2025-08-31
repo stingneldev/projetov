@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProjetoV</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #9ae5f9, #44029b);
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      padding: 30px 10px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-family: "Poppins", sans-serif;
+      color: #ffffff;
+      word-wrap: break-word;
+    }
+
+    .player {
+      margin: 20px auto;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 8px;
+    }
+
+    .lyrics {
+      margin: 30px auto;
+      max-width: 95%;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .lyrics h2 {
+      margin-bottom: 10px;
+      font-family: "Poppins", sans-serif;
+      color: #44029b;
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    .lyrics p {
+      line-height: 1.6;
+      font-size: 1rem;
+      white-space: pre-line;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin: 30px auto;
+      max-width: 95%;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      width: 540px;
+      height: 700px;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-style: italic;
+      color: #ffffff;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+        color: #ffffff;
+    }
+
+    /* Ajustes extras para telas pequenas */
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      .lyrics p {
+        font-size: 0.95rem;
+      }
+    
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>"Se Você Quiser"</h1>
+  </header>
+
+  <section class="player">
+    <audio controls>
+      <source src="musica.mp3" type="audio/mpeg">
+      Seu navegador não suporta o player de áudio.
+    </audio>
+  </section>
+
+  <section class="lyrics">
+    <h2>Letra</h2>
+    <p>
+    toda essa distancia entre a gente
+    baby ja não existe isso mais tão de repente
+    vou fazer um pedido amor pra estrela cadente
+    que Deus abençoe e isso não seja só um pente
+    </p>
+  </section>
+
+  <section class="gallery">
+    <img src="fotopapel.jpeg" alt="Foto 1">
+    <img src="fotobeat.jpeg" alt="Foto 2">
+    <img src="fotoyt.png" alt="Foto 3">
+  </section>
+
+  <!-- Nova seção de bastidores AGORA embaixo das imagens -->
+  <section class="lyrics">
+    <h2>Bastidores</h2>
+    <p>
+    <strong>Início/Ideia:</strong>
+
+    não lembro exatamente quando foi mas recentemente senti vontade em aprender a criar beats (ou tentar kkkk) é a parte que eu mais gosto das músicas então fui ver como me saia, pouco tempo depois dessa ideia pensar em juntar o útil ao agradavel, e se eu fizesse um beat pra aquela garota... acho que seria uma maneira diferente de interagir com ela ao inves das mensagens de sempre, mas melhor que isso, "e se eu fizesse uma música" kkkk.
+
+    <strong>Produção:</strong>
+
+    o primeiro passo era descubrir um app que eu pudesse fazer isso, ja tinha ouvido falar do FL Studio antes então foi nele que eu fui msm, consegui pagar 20 conto em um que ja vinha na versão pro e com uns bonus lá (a versão original custa 450 conto kkkkk) dps disso tive que ver muitos vídeos para entender o mínimo de como aquilo funcionava, o bgl parece um painel de um avião, e dps de tanta luta pra n desistir da ideia tive que mudar a ideia de fazer o beat e pegar um beat free do youtube (me economizaria tempo e eu conseguiria estudar em como melhorar a voz) é díficil mas até que deu certo.
+
+    <strong>Composição:</strong>
+    
+    aqui eu vi que fazer uma música não era só ligar o mic e começar a cantar, a criatividade muitas vezes sumiu e eu conseguia ir criando em média dois versos por tentativa, além das rimas, pra musica ter uma sonoridade agradavel é recomendado que os versos estejam metrificados, o que prejudica um pouco mais as ideias, mas acho que ficou bom, eu não queria criar algo tão genérico e como não conheço muito sobre vc tive que ir colhendo insights te stalkeando pelo insta e pelo tiktok (foi por uma boa causa).
+
+    <strong>Considerações Finais:</strong>
+
+    Apesar de todo o trabalho foi divertido fazer isso, aprendi bastante e fiquei feliz com o resultado, afinal é a primeira vez que eu faço todos esses processos (o risco de ser algo para agradar é uma motivação muito boa, adrenalina vem forte kkkk). Bom, no mais foi isso, veja isso como um presente feito com carinho, cuidado e dedicação, não quero te pressionar a nenhuma interação depois disso, só foi uma maneira arriscada e diferente que eu encontrei de chamar sua atenção, mas, "Se você quiser".
+
+    </p>
+  </section>
+
+  <footer>
+    <p>Para <a href="https://www.instagram.com/valentinaapolese" target="_blank">Valentina</a></p>
+  </footer>
+
+</body>
+</html>
